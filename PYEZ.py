@@ -26,7 +26,7 @@ def est_connect():
         'device_type': 'linux',
         'host': '10.255.255.200',
         'username': 'root',
-        'password': 'Rv567%00',
+        'password': '*******',
         'auto_connect': False}
     # print(f"Establish connectivity for host: {esxi_device['host']}")
     connection = ConnectHandler(**esxi_device)
